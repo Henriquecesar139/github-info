@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(22, 20, 20);
+    color: white;
+}
+
+input {
+    margin-left: 5%;
+    width: 60%;
+    background-color: rgb(32, 27, 27);
+    color: rgb(255, 255, 255);
+    height: 2rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+input::placeholder {
+    color: white;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(22, 22, 22);
+    color: white;
+    border-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    width: 30%;
+    height: 2rem
+}
+
+button:hover {
+    background-color: gray;
+}
+
+#info {
+    text-align: center;
+}
+
+#img1, #img2, #img3 {
+    width: 40%;
+    border-radius: 10px;
+    margin-top: 3%;
+}
